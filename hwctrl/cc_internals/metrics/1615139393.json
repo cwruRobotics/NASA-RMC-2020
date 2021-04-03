@@ -1,0 +1,98 @@
+[
+    {
+        "Dimensions": [
+            {
+                "Name": "Complete",
+                "Value": "True"
+            },
+            {
+                "Name": "Architecture",
+                "Value": "armhf"
+            },
+            {
+                "Name": "OS",
+                "Value": "ubuntu"
+            },
+            {
+                "Name": "ROS Distro",
+                "Value": "melodic"
+            }
+        ],
+        "MetricName": "gather_rosdeps-size",
+        "Timestamp": 1615139406.14349,
+        "Unit": "Bytes",
+        "Value": 223152596
+    },
+    {
+        "Dimensions": [
+            {
+                "Name": "Complete",
+                "Value": "True"
+            },
+            {
+                "Name": "Architecture",
+                "Value": "armhf"
+            },
+            {
+                "Name": "OS",
+                "Value": "ubuntu"
+            },
+            {
+                "Name": "ROS Distro",
+                "Value": "melodic"
+            }
+        ],
+        "MetricName": "gather_rosdeps-time",
+        "Timestamp": 1615139406.1434982,
+        "Unit": "Seconds",
+        "Value": 12.830714421001176
+    },
+    {
+        "Dimensions": [
+            {
+                "Name": "Complete",
+                "Value": "False"
+            },
+            {
+                "Name": "Architecture",
+                "Value": "armhf"
+            },
+            {
+                "Name": "OS",
+                "Value": "ubuntu"
+            },
+            {
+                "Name": "ROS Distro",
+                "Value": "melodic"
+            }
+        ],
+        "MetricName": "sysroot-time",
+        "Timestamp": 1615139452.1294858,
+        "Unit": "Seconds",
+        "Value": 45.985967444999915
+    },
+    {
+        "Dimensions": [
+            {
+                "Name": "Complete",
+                "Value": "False"
+            },
+            {
+                "Name": "Architecture",
+                "Value": "armhf"
+            },
+            {
+                "Name": "OS",
+                "Value": "ubuntu"
+            },
+            {
+                "Name": "ROS Distro",
+                "Value": "melodic"
+            }
+        ],
+        "MetricName": "end_to_end-time",
+        "Timestamp": 1615139452.1294975,
+        "Unit": "Seconds",
+        "Value": 58.82204428099976
+    }
+]

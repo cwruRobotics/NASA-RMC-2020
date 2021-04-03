@@ -1,0 +1,6 @@
+# my_workspace/defaults.yaml
+list:
+  packages-up-to: [hwctrl]
+build:
+  packages-select: [hwctrl]
+  cmake-args: ["-j8"]

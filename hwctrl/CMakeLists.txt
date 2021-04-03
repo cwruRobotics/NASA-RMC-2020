@@ -104,10 +104,10 @@ add_executable(hwctrl_cal
 
 add_executable(led_node src/led_node.cpp)
 
-if(CATKIN_ENABLE_TESTING)
-  catkin_add_gtest(hwctrl_tests test/testing.cpp src/util.cpp)
-  target_link_libraries(hwctrl_tests ${catkin_LIBRARIES})
-endif()
+# if(CATKIN_ENABLE_TESTING)
+  # catkin_add_gtest(hwctrl_tests test/testing.cpp src/util.cpp)
+  # target_link_libraries(hwctrl_tests ${catkin_LIBRARIES})
+# endif()
 
 # we only want lto if we are in release mode
 if(CMAKE_BUILD_TYPE STREQUAL "Release")
